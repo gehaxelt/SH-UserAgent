@@ -1,5 +1,6 @@
 #/bin/sh
-
+#Developer: Sebastian Neef (info@gehaxelt.in)
+#Git-Repo: https://github.com/gehaxelt/SH-UserAgent
 function show_help () {
     echo "UserAgents - by Sebastian Neef
           Writes one of the following useragent to stdout
