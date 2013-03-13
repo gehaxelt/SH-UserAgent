@@ -20,10 +20,14 @@ function show_help () {
             -at/--androidtablet     Android tablet useragent
             -ffos/--firefoxos       Firefox os useragent
           Programs:
-            -ly/--                  lynxLynx useragent
+            -ly/--lynx              Lynx useragent
     "
 }
-
+if [ $# -eq 0 ] 
+then
+    show_help
+    exit 1
+fi
 
 for i in "$@"
     do 
