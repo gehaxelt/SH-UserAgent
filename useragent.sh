@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/bash
 #Developer: Sebastian Neef (info@gehaxelt.in)
 #Git-Repo: https://github.com/gehaxelt/SH-UserAgent
 function show_help () {
