@@ -37,10 +37,6 @@ for i in "$@"
                 show_help
                 exit 1
             ;;
-            -c | --custom )
-                USERAGENT=$(echo $i | sed 's/.*=//')
-                break
-            ;;
             -ly | --lynx )
                 USERAGENT="Lynx/2.8.4rel.1 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.6c"
                 break
@@ -99,5 +95,5 @@ for i in "$@"
             ;;
         esac
     done
-echo $USERAGENT
+echo "$USERAGENT"
 exit 0
